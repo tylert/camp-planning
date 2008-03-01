@@ -1,0 +1,69 @@
+Legend:
+
+     Priority
+         v
+     [_] n fcw Qty. Item (Description/Notes)
+      ^     ^
+    Checkbox  Flags
+
+  A checkbox marked "[*]" means the item is already accounted for
+
+  Priority   Meaning
+  --------   --------------------------------
+     1       Item is pretty much mandatory
+     2       Item is strongly recommended
+     3       Item may or may not be needed
+     4       Item will probably not be needed
+     5       Item is merely for extra comfort
+
+  Flag   Meaning
+  ----   ------------------------------------------
+   f     Item is flammable or is for burninating
+   c     Item is consumed relatively quickly
+   w     Item is damaged or less effective when wet
+
+
+[_] 1 --- - Food
+
+  [_] 1 --- - Dry Ready-to-eat Food
+
+    [_] 2 -c- - Mixed Nuts
+    [_] 2 -c- - Granola Bars
+    [_] 2 fc- - Fruit (dried or fresh)
+
+  [_] - --- -
+
+    [_] 3 fc- - Hotdogs and/or Burgers
+    [_] 3 fc- - Vegetarian Hotdogs and/or Burgers
+    [_] 3 fc- - Potatoes
+    [_] 1 fcw - Bagels
+    [_] 1 fcw - Crackers
+    [_] 2 fc- - Marshmellows
+    [_] 1 fcw - Biscuits
+    [_] 3 fc- - Onions
+    [_] 3 fc- - Corn
+    [_] 3 fc- - Panzerotti or Pizza
+    [_] 3 fcw - Bannock
+
+  [_] 3 --- - Spreadable Food Toppings
+
+    [_] 3 -c- - Peanut Butter
+    [_] 3 -c- - Cream Cheese
+    [_] 3 -c- - Margarine
+
+  [_] 3 --- - Cold Beverage Additives
+
+    [_] 3 -cw - Iced Tea
+    [_] 3 -cw - Orange Flavour Crystals
+
+  [_] 3 --- - Hot Beverage Additives
+
+    [_] 3 -cw - Hot Chocolate
+    [_] 3 -c- - Tea
+    [_] 3 -cw - Coffee
+    [_] 3 fcw - Sugar
+
+  [_] 5 --- - Spices/Condiments
+
+    [_] 5 -cw - Salt
+    [_] 5 -cw - Pepper

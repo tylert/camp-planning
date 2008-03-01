@@ -1,0 +1,83 @@
+Pre-Flight Checklist:
+
+1. [_] Verify group equipment list
+2. [_] Verify personal equipment lists
+3. [_] Make sure we have enough tents for everybody
+4. [_] Make sure all the food is in the cooler
+5. [_] Fill water containers
+6. [_] Fill the cooler with ice
+7. [_] Inform all drivers
+8. [_] Check all vehicles and equipment
+
+
+Legend:
+
+     Priority
+         v
+     [_] n fcw Qty. Item (Description/Notes)
+      ^     ^
+    Checkbox  Flags
+
+  A checkbox marked "[*]" means the item is already accounted for
+
+  Priority   Meaning
+  --------   --------------------------------
+     1       Item is pretty much mandatory
+     2       Item is strongly recommended
+     3       Item may or may not be needed
+     4       Item will probably not be needed
+     5       Item is merely for extra comfort
+
+  Flag   Meaning
+  ----   ------------------------------------------
+   f     Item is flammable or is for burninating
+   c     Item is consumed relatively quickly
+   w     Item is damaged or less effective when wet
+
+
+[_] 1 --- - Shared Gear
+
+  [_] 1 --- - Summer Transportation Gear
+
+    [_] 1 --- - Canoe (two people) or Kayak (one person)
+    [_] 1 --- - Paddles (1 per person)
+    [_] 1 --- - Life Jackets (1 per person)
+    [_] 1 --- - Water Bailer (1 per boat)
+    [_] 1 --- - Pea-less Whistles (1 per boat)
+
+  [_] 2 --- - Cooking Gear
+
+    [_] 3 --- 1 Large Water Container
+    [_] 3 --- 1 Small Water Container (for mixing powdered drink mixes)
+    [_] 2 fc- - Waterproof Matches
+    [_] 3 --- 1 Pot (for boiling water)
+    [_] 3 -c- - Tin Foil (for cooking potatoes)
+    [_] 2 fcw - Firewood (1 applebox full per day)
+    [_] 3 --- 2 Wash Basins (1 for washing and 1 for rinsing)
+    [_] 3 --- 2 Scrubber Pad
+    [_] 1 -c- - Dishsoap
+    [_] 3 --- 1 Cooler
+
+  [_] 1 --- - Miscellaneous Gear
+
+    [_] 1 --- - Plastic Bags (for garbage, boot waterproofing, etc.)
+    [_] 1 fcw 1 Toilet Paper
+    [_] 1 --- 1 Tarp(s)
+    [_] 1 fc- - Rope
+    [_] 1 fc- - String
+    [_] 2 fc- - Candle(s)
+    [_] 1 -c- 1 Heavy-duty Adhesive Tape
+    [_] 3 --- 1 Saw
+
+    [_] 1 --w 1 First Aid Kit
+
+      [_] - --- -
+      [_] - --- -
+      [_] - --- -
+      [_] - --- -
+      [_] - --- -
+      [_] - --- -
+      [_] - --- -
+      [_] - --- -
+      [_] - --- -
+      [_] - --- -

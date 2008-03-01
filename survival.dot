@@ -1,0 +1,274 @@
+/*
+First off, if you end up in a survival situation, you are almost certainly
+badly in need of help.  Either your vehicle crashed or you plum got lost, some
+of your party may be in need of medical attention and you likely don't have a
+convenience store nearby when you get a hankering for a nice, cool beverage.
+For this reason, the main focus of this kit is to get you back to civilization.
+
+Everything in this kit can be classified in one of two categories:
+
+  - Items that serve to help your party get rescued
+  - Items that serve to help keep your party alive long enough to get rescued
+*/
+
+digraph survival
+{
+  node [shape = box];
+
+  subgraph escape
+  {
+    subgraph signalling
+    {
+      subgraph light
+      {
+        subgraph production
+        {
+          subgraph chemical
+          {
+            subgraph pyrotechnic
+            {
+              subgraph fire
+              {
+                subgraph generation
+                {
+                  subgraph spark
+                  {
+                    flint [shape = ellipse];
+                    knife [shape = ellipse];
+
+                    spark -> flint;
+                    spark -> knife;
+                  }
+
+                  subgraph flame
+                  {
+                    matches [shape = ellipse];
+
+                    flame -> matches;
+                  }
+
+                  generation -> spark [label = "reusable"];
+                  generation -> flame [label = "single-use"];
+                }
+
+                subgraph fuel
+                {
+                  subgraph emergency
+                  {
+                    tinder [shape = ellipse];
+                    candle [shape = ellipse];
+
+                    emergency -> tinder;
+                    emergency -> candle;
+                  }
+
+                  subgraph collection
+                  {
+                    saw [shape = ellipse];
+
+                    collection -> saw;
+                  }
+
+                  fuel -> emergency;
+                  fuel -> collection;
+                }
+
+                fire -> generation;
+                fire -> fuel;
+              }
+
+              flares [shape = ellipse, color = grey, fontcolor = grey];
+
+              pyrotechnic -> fire [label = "semi-fixed", fontcolor = grey];
+              pyrotechnic -> flares [label = "portable", style = dashed, color = grey, fontcolor = grey];
+            }
+
+            subgraph luminescent
+            {
+              node [color = grey, fontcolor = grey];
+              edge [style = dashed, color = grey];
+
+              superglowstick [shape = ellipse];
+
+              luminescent -> superglowstick;
+            }
+
+            chemical -> pyrotechnic;
+            chemical -> luminescent [style = dashed, color = grey];
+          }
+
+          subgraph electrical
+          {
+            node [color = grey, fontcolor = grey];
+            edge [color = grey];
+
+            laser [shape = ellipse];
+            strobe [shape = ellipse];
+
+            electrical -> laser [style = dashed];
+            electrical -> strobe [style = dashed];
+          }
+
+          production -> chemical;
+          production -> electrical [style = dashed, color = grey];
+        }
+
+        subgraph reflection
+        {
+          subgraph fixed
+          {
+            panels [shape = ellipse];
+            dye [shape = ellipse, color = grey, fontcolor = grey];
+
+            fixed -> panels;
+            fixed -> dye [style = dashed, color = grey];
+          }
+
+          subgraph portable
+          {
+            mirror [shape = ellipse];
+
+            portable -> mirror;
+          }
+
+          reflection -> fixed;
+          reflection -> portable;
+        }
+
+        light -> production [label = "night/day"];
+        light -> reflection [label = "day"];
+      }
+
+      subgraph sound
+      {
+        subgraph radio
+        {
+          node [color = grey, fontcolor = grey];
+          edge [style = dashed, color = grey];
+
+          subgraph twoway
+          {
+            satphone [shape = ellipse];
+            cellphone [shape = ellipse];
+            handheld [shape = ellipse];
+
+            twoway -> satphone;
+            twoway -> cellphone;
+            twoway -> handheld;
+          }
+
+          subgraph oneway
+          {
+            beacon [shape = ellipse];
+
+            oneway -> beacon
+          }
+
+          radio -> twoway;
+          radio -> oneway;
+        }
+
+        subgraph audible
+        {
+          whistle [shape = ellipse];
+
+          audible -> whistle;
+        }
+
+        sound -> radio [label = "far", style = dashed, color = grey, fontcolor = grey];
+        sound -> audible [label = "near", fontcolor = grey];
+      }
+
+      signalling -> light;
+      signalling -> sound;
+    }
+
+    subgraph navigation
+    {
+      subgraph mapping
+      {
+        subgraph reading
+        {
+          chart [shape = ellipse];
+          map [shape = ellipse];
+
+          reading -> chart;
+          reading -> map;
+          reading -> illumination [style = dashed];
+        }
+
+        subgraph recording
+        {
+          paper [shape = ellipse];
+          pencil [shape = ellipse];
+
+          recording -> paper;
+          recording -> pencil;
+          recording -> illumination [style = dashed];
+        }
+
+        mapping -> reading;
+        mapping -> recording;
+      }
+
+      subgraph illumination
+      {
+        lamp [shape = ellipse];
+        flashlight [shape = ellipse];
+        glowstick [shape = ellipse];
+
+        illumination -> lamp [style = dashed];
+        illumination -> flashlight [style = dashed];
+        illumination -> glowstick [style = dashed];
+      }
+
+      subgraph orienteering
+      {
+        compass [shape = ellipse];
+        markers [shape = ellipse];
+
+        orienteering -> compass;
+        orienteering -> markers;
+        orienteering -> illumination [style = dashed];
+      }
+
+      GPS [shape = ellipse, color = grey, fontcolor = grey];
+
+      mapping -> GPS [style = dashed, color = grey];
+      orienteering -> GPS [style = dashed, color = grey];
+
+      navigation -> mapping;
+      navigation -> illumination [style = dashed];
+      navigation -> orienteering;
+    }
+
+    subgraph medical
+    {
+    }
+
+    escape -> signalling;
+    escape -> navigation;
+    escape -> medical;
+  }
+
+  subgraph preservation
+  {
+    subgraph sustainance
+    {
+      sustainance -> food;
+      sustainance -> water;
+    }
+
+    subgraph shelter
+    {
+      shelter -> building;
+      shelter -> personal;
+    }
+
+    preservation -> sustainance;
+    preservation -> shelter;
+  }
+
+  survival -> escape;
+  survival -> preservation;
+}
