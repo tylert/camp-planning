@@ -9,23 +9,23 @@ do without it for a weekend, then it's probably better to leave it at home.
 Also, please try to follow the following additional guidelines/notes:
 
   1. The checklist includes everything worn or brought on the trip up
-  2. Pack light and small as the campsite is accessible only by canoe
+  2. Pack light and small as the campsite is not directly accessible by car
   3. Pack stuff inside separate, double-redundant plastic bags
   4. Try to bring mostly waterproof stuff that isn't terribly fragile
   5. Try to bring only old, worn-out stuff
   6. Pick light coloured clothing to keep cooler and reduce bug attraction
-  7. Please do NOT bring any items which will generate excessive/bulky garbage
+  7. Please do not bring any items which will generate excessive/bulky garbage
 
 
 Legend:
 
-     Priority
-         v
-     [_] n fcw Qty. Item (Description/Notes)
-      ^     ^
-    Checkbox  Flags
+       Priority
+          v
+     [_]  n  fcw  Qty.  Item (Description/Notes)
+      ^       ^
+   Checkbox  Flags
 
-  A checkbox marked "[*]" means the item is already accounted for
+  A checkbox marked "[x]" means the item is already accounted for
 
   Priority   Meaning
   --------   --------------------------------
@@ -42,54 +42,55 @@ Legend:
    w     Item is damaged or less effective when wet
 
 
-[_] 1 --- - Personal Gear
+[_]  1  ---  -  Personal Gear
 
-  [_] 1 --- 1 Backpack
+  [_]  1  ---  1  Backpack
 
-    [_] 1 --- - Summer Sleeping Gear
+    [_]  1  ---  -  Sleeping Gear
 
-      [_] 1 f-w n Tent (please share to reduce weight)
-      [_] 2 --- 1 Waterproof Groundsheet (rain poncho)
-      [_] 1 f-w 1 Sleeping Bag
-      [_] 1 --- 1 Plastic Bag (to protect sleeping bag in case of capsize)
-      [_] 5 f-w 1 Camp Mattress
-      [_] 5 f-w 1 Pillow (pile of clothes)
+      [_]  1  f-w  n  Tent (please share to reduce weight)
+      [_]  2  ---  1  Waterproof Groundsheet (rain poncho)
+      [_]  1  f-w  1  Sleeping Bag
+      [_]  1  ---  1  Plastic Bag (to protect sleeping bag in case of capsize)
+      [_]  5  f-w  1  Camp Mattress
+      [_]  5  f-w  1  Pillow (pile of clothes)
 
-    [_] 1 --- - Summer Protective Gear
+    [_]  1  ---  -  Protective Gear
 
-      [_] 1 f-w 1 Footgear (suitable for hiking)
-      [_] 1 --- 2 Plastic Bags (to protect footgear while over water)
-      [_] 2 --- 1 Rain Poncho or Coat (waterproof groundsheet)
-      [_] 2 f-- 1 Hat (to prevent heatstroke)
-      [_] 2 --- 1 Sunglasses
-      [_] 3 -c- 1 Sunscreen
-      [_] 2 -c- 1 Bug Repellent
+      [_]  1  f-w  1  Footgear (suitable for hiking)
+      [_]  1  ---  2  Plastic Bags (to protect footgear while over water)
+      [_]  2  ---  1  Rain Poncho or Coat (waterproof groundsheet)
+      [_]  2  f--  1  Hat (to prevent heatstroke)
+      [_]  2  ---  1  Sunglasses
+      [_]  3  -c-  1  Sunscreen
+      [_]  2  -c-  1  Bug Repellent
 
-    [_] 1 --- - Summer Clothing and Swimming Gear
+    [_]  1  ---  -  Clothing and Swimming Gear
 
-      [_] 1 f-w 1 Bath Towel
-      [_] 2 f-w 2 Swimsuits or Shorts
-      [_] 1 f-w 1 Pants (to keep warm after dark)
-      [_] 1 f-w 1 Sweater (to keep warm after dark)
-      [_] 1 f-w n Shirts
-      [_] 2 f-w n Underwear
-      [_] 2 f-w n Socks
-      [_] 1 --- 1 Plastic Bag (to protect clothing in case of capsize)
+      [_]  1  f-w  1  Bath Towel
+      [_]  2  f-w  2  Swimsuits or Shorts
+      [_]  1  f-w  1  Pants (to keep warm after dark)
+      [_]  1  f-w  1  Sweater (to keep warm after dark)
+      [_]  1  f-w  n  Shirts
+      [_]  2  f-w  n  Underwear
+      [_]  2  f-w  n  Socks
+      [_]  1  ---  1  Plastic Bag (to protect clothing in case of capsize)
 
-    [_] 1 --- - Mess Kit
+    [_]  1  ---  -  Mess Kit
 
-      [_] 1 --- 1 Water Canteen
-      [_] 1 --- 1 Plastic Cup
-      [_] 3 --- 1 Plastic Bowl
-      [_] 3 --- 1 Plastic Plate
-      [_] 1 --- 1 Fork
-      [_] 3 --- 1 Spoon
-      [_] 3 --- 1 Butter Knife
+      [_]  1  ---  1  Water Canteen
+      [_]  1  ---  1  Cup
+      [_]  1  ---  1  Bowl
+      [_]  3  ---  1  Plate
+      [_]  1  ---  1  Fork (Spork?)
+      [_]  1  ---  1  Spoon (Spork?)
+      [_]  3  ---  1  Butter Knife
 
-    [_] 2 --- - Other Gear
+    [_]  2  ---  -  Other Gear
 
-      [_] 2 -cw 1 Flashlight
-      [_] 1 --- 1 Compass
-      [_] 1 --- 1 Knife
-      [_] 2 --- 1 Toothbrush
-      [_] 2 -c- 1 Toothpaste
+      [_]  2  -cw  1  Flashlight or Headlamp
+      [_]  1  ---  1  Compass
+      [_]  1  ---  1  Knife
+      [_]  2  ---  1  Toothbrush
+      [_]  3  -c-  1  Toothpaste
+      [_]  2  fcw  1  Very Important Paper
